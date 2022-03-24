@@ -1,0 +1,26 @@
+{
+  "name": "emgbackend",
+  "version": "1.0.0",
+  "description": "EMG Backend fastify + sequelize + postgresql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "SnowFlake",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.22.1",
+    "fastify-cors": "^6.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.7.0"
+  },
+  "devDependencies": {
+    "fastify-swagger": "^4.12.6",
+    "nodemon": "^2.0.14"
+  }
+}
